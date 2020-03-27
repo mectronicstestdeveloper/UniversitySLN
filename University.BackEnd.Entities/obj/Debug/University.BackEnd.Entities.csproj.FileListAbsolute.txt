@@ -1,0 +1,4 @@
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\bin\Debug\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\bin\Debug\University.BackEnd.Entities.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\obj\Debug\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\obj\Debug\University.BackEnd.Entities.pdb

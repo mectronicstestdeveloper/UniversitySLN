@@ -1,0 +1,6 @@
+﻿CREATE TABLE [Administrative].[Room] (
+    [RoomID]   UNIQUEIDENTIFIER NOT NULL,
+    [RoomName] NVARCHAR (50)    NOT NULL,
+    CONSTRAINT [PK_SALON] PRIMARY KEY CLUSTERED ([RoomID] ASC)
+);
+

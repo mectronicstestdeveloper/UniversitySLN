@@ -1,0 +1,123 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BackEnd.Entities", "University.BackEnd.Entities\University.BackEnd.Entities.csproj", "{9AE345BC-7768-492F-ADE3-60686263139E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BackEnd.Data", "University.BackEnd.Data\University.BackEnd.Data.csproj", "{87643F62-44B9-402F-A563-5B8D7B639396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BackEnd.Business", "University.BackEnd.Business\University.BackEnd.Business.csproj", "{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BackEnd.Services", "University.BackEnd.Services\University.BackEnd.Services.csproj", "{2C2FA975-9BAC-4758-99E7-29FE8C9F206B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University.BackEnd.BackendApp", "University.BackEnd.BackendApp\University.BackEnd.BackendApp.csproj", "{C05E3B41-572B-4947-9413-A573F40D167F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{E053E4B0-F882-492D-A642-744A9A6F3DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{7DACC02D-3AEA-4219-88D1-E5423DEA5E35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIServices", "UIServices\UIServices.csproj", "{44A1A8C2-2FDF-420D-9998-5EAD416A11F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniversityWebApp", "UniversityWebApp\UniversityWebApp.csproj", "{CDE32B0D-39FC-493E-929F-4781B9E98346}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{748A45C9-9FAE-4130-A5F0-0C2B02862590}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseProject", "DatabaseProject\DatabaseProject.sqlproj", "{5DA0F917-D6CA-4646-BC23-22E2883E46A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE345BC-7768-492F-ADE3-60686263139E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE345BC-7768-492F-ADE3-60686263139E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE345BC-7768-492F-ADE3-60686263139E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE345BC-7768-492F-ADE3-60686263139E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87643F62-44B9-402F-A563-5B8D7B639396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87643F62-44B9-402F-A563-5B8D7B639396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87643F62-44B9-402F-A563-5B8D7B639396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87643F62-44B9-402F-A563-5B8D7B639396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2FA975-9BAC-4758-99E7-29FE8C9F206B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2FA975-9BAC-4758-99E7-29FE8C9F206B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2FA975-9BAC-4758-99E7-29FE8C9F206B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2FA975-9BAC-4758-99E7-29FE8C9F206B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05E3B41-572B-4947-9413-A573F40D167F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05E3B41-572B-4947-9413-A573F40D167F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05E3B41-572B-4947-9413-A573F40D167F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05E3B41-572B-4947-9413-A573F40D167F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A1A8C2-2FDF-420D-9998-5EAD416A11F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A1A8C2-2FDF-420D-9998-5EAD416A11F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A1A8C2-2FDF-420D-9998-5EAD416A11F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A1A8C2-2FDF-420D-9998-5EAD416A11F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE32B0D-39FC-493E-929F-4781B9E98346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE32B0D-39FC-493E-929F-4781B9E98346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE32B0D-39FC-493E-929F-4781B9E98346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE32B0D-39FC-493E-929F-4781B9E98346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AE345BC-7768-492F-ADE3-60686263139E} = {E053E4B0-F882-492D-A642-744A9A6F3DDF}
+		{87643F62-44B9-402F-A563-5B8D7B639396} = {E053E4B0-F882-492D-A642-744A9A6F3DDF}
+		{AA296D82-F2FA-4BAD-AFFC-D6705ABD478F} = {E053E4B0-F882-492D-A642-744A9A6F3DDF}
+		{2C2FA975-9BAC-4758-99E7-29FE8C9F206B} = {E053E4B0-F882-492D-A642-744A9A6F3DDF}
+		{C05E3B41-572B-4947-9413-A573F40D167F} = {E053E4B0-F882-492D-A642-744A9A6F3DDF}
+		{44A1A8C2-2FDF-420D-9998-5EAD416A11F6} = {7DACC02D-3AEA-4219-88D1-E5423DEA5E35}
+		{CDE32B0D-39FC-493E-929F-4781B9E98346} = {7DACC02D-3AEA-4219-88D1-E5423DEA5E35}
+		{5DA0F917-D6CA-4646-BC23-22E2883E46A3} = {748A45C9-9FAE-4130-A5F0-0C2B02862590}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9DE39D-BA04-4085-9284-B848EC9F486F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/mectronicstestdeveloper
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = University.BackEnd.BackendApp\\University.BackEnd.BackendApp.csproj
+		SccProjectTopLevelParentUniqueName1 = UniversitySLN.sln
+		SccProjectName1 = University.BackEnd.BackendApp
+		SccLocalPath1 = University.BackEnd.BackendApp
+		SccProjectUniqueName2 = University.BackEnd.Business\\University.BackEnd.Business.csproj
+		SccProjectTopLevelParentUniqueName2 = UniversitySLN.sln
+		SccProjectName2 = University.BackEnd.Business
+		SccLocalPath2 = University.BackEnd.Business
+		SccProjectUniqueName3 = University.BackEnd.Data\\University.BackEnd.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = UniversitySLN.sln
+		SccProjectName3 = University.BackEnd.Data
+		SccLocalPath3 = University.BackEnd.Data
+		SccProjectUniqueName4 = University.BackEnd.Entities\\University.BackEnd.Entities.csproj
+		SccProjectTopLevelParentUniqueName4 = UniversitySLN.sln
+		SccProjectName4 = University.BackEnd.Entities
+		SccLocalPath4 = University.BackEnd.Entities
+		SccProjectUniqueName5 = University.BackEnd.Services\\University.BackEnd.Services.csproj
+		SccProjectTopLevelParentUniqueName5 = UniversitySLN.sln
+		SccProjectName5 = University.BackEnd.Services
+		SccLocalPath5 = University.BackEnd.Services
+		SccProjectUniqueName6 = UIServices\\UIServices.csproj
+		SccProjectTopLevelParentUniqueName6 = UniversitySLN.sln
+		SccProjectName6 = UIServices
+		SccLocalPath6 = UIServices
+		SccProjectUniqueName7 = UniversityWebApp\\UniversityWebApp.csproj
+		SccProjectTopLevelParentUniqueName7 = UniversitySLN.sln
+		SccProjectName7 = UniversityWebApp
+		SccLocalPath7 = UniversityWebApp
+		SccProjectUniqueName8 = DatabaseProject\\DatabaseProject.sqlproj
+		SccProjectTopLevelParentUniqueName8 = UniversitySLN.sln
+		SccProjectName8 = DatabaseProject
+		SccLocalPath8 = DatabaseProject
+	EndGlobalSection
+EndGlobal

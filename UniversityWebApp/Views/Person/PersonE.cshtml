@@ -1,0 +1,61 @@
+﻿@using University.BackEnd.Entities;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Alumnos Punto E";
+}
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="kt-portlet">
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Lista de alumnos ordenada por fecha de ingreso.
+                    </h3>
+                </div>
+            </div>
+
+            <!--begin::Form-->
+            <form class="kt-form">
+                <div class="kt-portlet__body">
+
+                    <div class="form-group form-group-last">
+                        @(Html.Kendo().Grid<Person>()
+.Name("grid")
+.Columns(columns =>
+{
+    columns.Bound(p => p.PersonID).Hidden(true);
+    columns.Bound(p => p.PersonName).Width(80).Title("Nombre");
+    columns.Bound(p => p.PersonFirstLastName).Width(80).Title("Primer Apellido");
+    columns.Bound(p => p.PersonSecondLastName).Width(80).Title("Segundo Apellido");
+    columns.Bound(p => p.PersonPersonSex).Width(20).Title("Sexo");
+    columns.Bound(p => p.PersonSingUp).Width(100).Title("Fecha de Ingreso").Format("{0:dd/MM/yyyy}");
+
+})
+.Pageable()
+.Sortable()
+.Scrollable()
+.HtmlAttributes(new { style = "height:430px;" })
+.DataSource(dataSource => dataSource
+.Ajax()
+.PageSize(20)
+.Events(events => events.Error("error_handler"))
+
+.Read(read => read.Action("PersonERead", "Person"))
+
+))
+                    </div>
+                </div>
+                @*<div class="kt-portlet__foot">
+                        <div class="kt-form__actions">
+                            <button type="reset" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </div>*@
+            </form>
+
+            <!--end::Form-->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Business.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Business.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Data.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Data.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\bin\Release\University.BackEnd.Entities.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\obj\Release\University.BackEnd.Business.csprojAssemblyReference.cache
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\obj\Release\University.BackEnd.Business.csproj.CopyComplete
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\obj\Release\University.BackEnd.Business.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Business\obj\Release\University.BackEnd.Business.pdb

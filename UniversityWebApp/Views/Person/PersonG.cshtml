@@ -1,0 +1,81 @@
+﻿@using University.BackEnd.Entities;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Alumnos Punto G";
+}
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="kt-portlet">
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Lista de alumnos con busqueda con Cedula
+                    </h3>
+                </div>
+            </div>
+
+            <!--begin::Form-->
+            <form class="kt-form">
+                <div class="kt-portlet__body">
+                   
+                    <div class="form-group form-group-last">
+                        <div class="row">
+                            <div class="col-md-11">
+
+                                @(Html.Kendo().Grid<Person>()
+        .Name("grid")
+        .Columns(columns =>
+        {
+            columns.Bound(p => p.PersonID).Width(100).Title("Cedula").Filterable(ftb => ftb.Cell(cell => cell.Operator("contains").ShowOperators(false).SuggestionOperator(FilterType.Contains)));
+            columns.Bound(p => p.PersonName).Width(80).Title("Nombre").Filterable(false);
+            columns.Bound(p => p.PersonFirstLastName).Width(80).Title("Primer Apellido").Filterable(false);
+            columns.Bound(p => p.PersonSecondLastName).Width(80).Title("Segundo Apellido").Filterable(false);
+            columns.Bound(p => p.PersonPersonSex).Width(30).Title("Sexo").Filterable(false);
+            columns.Bound(p => p.PersonSingUp).Width(80).Title("Fecha de Ingreso").Format("{0:dd/MM/yyyy}").Filterable(false);
+
+        })
+            .Filterable(ftb => ftb.Mode(GridFilterMode.Row))
+        .Pageable()
+        .Sortable()
+        .Scrollable()
+        .HtmlAttributes(new { style = "height:430px;" })
+        .DataSource(dataSource => dataSource
+        .Ajax()
+        .PageSize(20)
+        .Events(events => events.Error("error_handler"))
+
+        .Read(read => read.Action("PersonERead", "Person"))
+
+        ))
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @*<div class="kt-portlet__foot">
+                        <div class="kt-form__actions">
+                            <button type="reset" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </div>*@
+            </form>
+
+            <!--end::Form-->
+        </div>
+    </div>
+</div>
+<script>
+    var cc = "";
+    Proxy("Post", "/Person/grid", "application/json;charset=utf-8",
+        JSON.stringify(cc),
+        function (data) {
+            RefreshGrid("Grid");
+        },
+        function (data) {
+            if (data.status == 505) {
+                alert(data.responseText);
+            }
+        },
+        "json");
+</script>

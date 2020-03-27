@@ -1,0 +1,62 @@
+﻿@using University.BackEnd.Entities;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Materias";
+}
+<div class="row">
+
+    <div class="col-md-12">
+        <div class="kt-portlet">
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Materias
+                    </h3>
+                </div>
+            </div>
+
+            <!--begin::Form-->
+            <form class="kt-form">
+                <div class="kt-portlet__body">
+
+                    <div class="form-group form-group-last">
+                        @(Html.Kendo().Grid<Subject>()
+.Name("grid")
+.Columns(columns =>
+{
+    columns.Bound(p => p.SubjectID).Hidden(true);
+    columns.Bound(p => p.SubjectName).Width(100).Title("Materia");
+
+    columns.Command(command => { command.Edit().UpdateText("Editar"); command.Destroy().Text("Eliminar"); }).Width(200);
+})
+.ToolBar(toolbar => toolbar.Create().Text("Agregar"))
+.Editable(editable => editable.Mode(GridEditMode.InLine))
+.Pageable()
+.Sortable()
+.Scrollable()
+.HtmlAttributes(new { style = "height:430px;" })
+.DataSource(dataSource => dataSource
+.Ajax()
+.PageSize(20)
+.Events(events => events.Error("error_handler"))
+.Model(model => { model.Id(p => p.SubjectID); model.Field(p => p.SubjectID).DefaultValue(Guid.NewGuid()); })
+.Create(update => update.Action("SubjectCreate", "Administrative"))
+.Read(read => read.Action("SubjectRead", "Administrative"))
+.Update(update => update.Action("SubjectUpdate", "Administrative"))
+.Destroy(update => update.Action("SubjectDestroy", "Administrative"))
+))
+                    </div>
+                </div>
+                @*<div class="kt-portlet__foot">
+                        <div class="kt-form__actions">
+                            <button type="reset" class="btn btn-primary">Submit</button>
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                        </div>
+                    </div>*@
+            </form>
+
+            <!--end::Form-->
+        </div>
+    </div>
+</div>

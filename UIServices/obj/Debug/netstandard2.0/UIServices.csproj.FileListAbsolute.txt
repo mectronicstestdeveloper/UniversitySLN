@@ -1,0 +1,11 @@
+C:\WSMEC\University\UniversitySLN\UIServices\bin\Debug\netstandard2.0\UIServices.deps.json
+C:\WSMEC\University\UniversitySLN\UIServices\bin\Debug\netstandard2.0\UIServices.dll
+C:\WSMEC\University\UniversitySLN\UIServices\bin\Debug\netstandard2.0\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\UIServices\bin\Debug\netstandard2.0\University.BackEnd.Entities.pdb
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.AssemblyInfoInputs.cache
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.AssemblyInfo.cs
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.csproj.CopyComplete
+C:\WSMEC\University\UniversitySLN\UIServices\bin\Debug\netstandard2.0\UIServices.pdb
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.dll
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.pdb
+C:\WSMEC\University\UniversitySLN\UIServices\obj\Debug\netstandard2.0\UIServices.csprojAssemblyReference.cache

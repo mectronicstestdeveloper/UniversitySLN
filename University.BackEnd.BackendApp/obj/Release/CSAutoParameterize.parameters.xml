@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ProdDB-Web.config Connection String" description="ProdDB Connection String used in web.config by the application to access the database." defaultValue="Data Source=sql-server-dev-university.database.windows.net;Initial Catalog=UniversityDB;Integrated Security=False;User ID=ServerAdmin;Password=Jt?Rn(0-w$J9;Connection Timeout=360;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\WSMEC\\University\\UniversitySLN\\University\.BackEnd\.BackendApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ProdDB']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,12 @@
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Services.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Services.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Business.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Data.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Business.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Entities.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\bin\Debug\University.BackEnd.Data.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\obj\Debug\University.BackEnd.Services.csprojAssemblyReference.cache
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\obj\Debug\University.BackEnd.Services.csproj.CopyComplete
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\obj\Debug\University.BackEnd.Services.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Services\obj\Debug\University.BackEnd.Services.pdb

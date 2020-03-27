@@ -1,0 +1,5 @@
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\bin\Release\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\bin\Release\University.BackEnd.Entities.pdb
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\obj\Release\University.BackEnd.Entities.csprojAssemblyReference.cache
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\obj\Release\University.BackEnd.Entities.dll
+C:\WSMEC\University\UniversitySLN\University.BackEnd.Entities\obj\Release\University.BackEnd.Entities.pdb
